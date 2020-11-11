@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "mjml templates/index.mjml --config.beautify true --config.validationLevel=strict -o dist/index.html"
   },
   "repository": {
     "type": "git",
