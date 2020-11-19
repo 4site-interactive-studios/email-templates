@@ -1,0 +1,52 @@
+<mjml>
+  <mj-head>
+  </mj-head>
+  <mj-body>
+    <mj-container background-color="#ffffff">
+      <mj-section>
+        <mj-column>
+          <mj-button href="https://mjml.io/" font-family="sans-serif" color="white" font-weight="bold" background-color="#61a534" border-radius="23px" border="4px double #FFFFFF" line-height="20px">
+            Custom Green
+          </mj-button>
+        </mj-column>
+      </mj-section>    
+      <mj-section>
+        <mj-column>
+          <mj-button href="https://mjml.io/" font-family="sans-serif" color="white" font-weight="bold" background-color="#61a534" border-radius="0px">
+            Simple Green
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button href="https://mjml.io/" font-family="sans-serif" color="white" font-weight="bold" background-color="#e56216" border-radius="50px">
+            Simple Organge
+          </mj-button>
+        </mj-column>
+      </mj-section>
+            <mj-section>
+        <mj-column>
+          <mj-button href="https://mjml.io/" font-family="sans-serif" color="white" font-weight="bold" background-color="#61a534" border-radius="0px">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button href="https://mjml.io/" font-family="sans-serif" color="white" font-weight="bold" background-color="#e56216" border-radius="50px">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      </mj-section>
+            <mj-section>
+        <mj-column>
+          <mj-button href="https://mjml.io/" width="150" font-family="sans-serif" color="white" font-weight="bold" background-color="#61a534" border-radius="0px">
+            Width: 150px. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button href="https://mjml.io/" width="150"  font-family="sans-serif" color="white" font-weight="bold" background-color="#e56216" border-radius="50px">
+            Width: 150px. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
