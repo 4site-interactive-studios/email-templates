@@ -2,13 +2,9 @@
   <mj-head>
     <mj-title>Discount Light</mj-title>
     <mj-preview>Pre-header Text</mj-preview>
-    <mj-font name="OxfamHeadline"
-       href="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/oxfamglobalheadline-webfont.woff" />
-    <mj-font name="OxfamTSTAR"
-       href="https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/2110/OxfamTSTARPRO-Regular.woff2" />
     <mj-attributes>
-      <mj-text font-family="OxfamTSTAR, sans-serif" font-weight="400" font-size="16px" color="#000000"></mj-text>
-      <mj-button font-family="OxfamHeadline, sans-serif" text-transform="uppercase" color="#ffffff" font-weight="bold" background-color="#61a534" border-radius="23px" border="4px double #FFFFFF" line-height="20px" font-weight="400"></mj-button>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text css-class="en__component en__component--textblock" font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
       .body-section {
@@ -27,43 +23,31 @@
         color: #888888
       }
     </mj-style>
+
   </mj-head>
-  <mj-body background-color="#eeeeee" width="600px">
-  <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
-    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="0">
-      <mj-column>
-        <mj-image css-class="en__component en__component--imageblock" src="https://www.oxfam.ca/wp-content/uploads/2018/08/toptop.jpg" alt="Oxfam Canada" width="600px" padding-left="0" padding-right="0" padding-top="0"/>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-bottom="0">
-      <mj-column css-class="en__component en__component--droppable ui-sortable" padding-left="20px">
-        <mj-image css-class="en__component en__component--imageblock" src="https://42kgab3z3i7s3rm1xf48rq44-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/oxfamcanada_green.png" alt="Oxfam Canada" align="left" width="165px" />
-      </mj-column>
-      <mj-column css-class="en__component en__component--droppable ui-sortable" padding-right="20px">
-        <mj-button css-class="en__component en__component--textblock" href="https://mjml.io/" align="right" width="150px">
-          Donate
-        </mj-button>
-      </mj-column>  
-    </mj-section>
-    <mj-section background-color="#ffffff" padding-bottom="0">
-      <mj-column width="100%" css-class="en__component en__component--droppable ui-sortable">      
-        <mj-text css-class="en__component en__component--textblock" color="#000000" font-weight="bold" text-transform="uppercase" font-size="50px" letter-spacing="1px" padding-top="30px" font-family="OxfamHeadline, sans-serif">
-          OXFAM News
-        </mj-text>
-        <mj-text css-class="en__component en__component--textblock" color="#3b3b3b" font-size="20px" padding-top="0" text-transform="uppercase" letter-spacing="1px" line-height="20px">
-          April, 2020
-        </mj-text>
-        <mj-image css-class="en__component en__component--imageblock" src="https://picsum.photos/600/395?grayscale" width="600px" alt="" padding="0" href="https://google.com" />
-      </mj-column>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section full-width="full-width" background-color="#040B4F" padding-bottom="0">
       <mj-column width="100%" css-class="en__component en__component--droppable ui-sortable">
+        <mj-image css-class="en__component en__component--imageblock" src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544153577/Email/Images/AnnouncementOffset/crofts-white.png" alt="" align="center" width="150px" />
+        <mj-text css-class="en__component en__component--textblock" color="#ffffff" font-weight="bold" align="center" text-transform="uppercase" font-size="16px" letter-spacing="1px" padding-top="30px">
+          Austin, TX
+          <br />
+          <span style="color: #979797; font-weight: normal">-</span>
+        </mj-text>
+        <mj-text css-class="en__component en__component--textblock" color="#17CBC4" align="center" font-size="13px" padding-top="0" font-weight="bold" text-transform="uppercase" letter-spacing="1px" line-height="20px">
+          Austin Convention Center
+          <br /> 123 Main Street, 78701
+        </mj-text>
+        <mj-image css-class="en__component en__component--imageblock" src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-top.png" width="600px" alt="" padding="0" href="https://google.com" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#1f2e78"  padding-bottom="0">
+    <mj-section background-color="#1f2e78">
       <mj-column width="100%" css-class="en__component en__component--droppable ui-sortable">
         <mj-image css-class="en__component en__component--imageblock" src="https://res.cloudinary.com/dheck1ubc/image/upload/v1544156968/Email/Images/AnnouncementOffset/header-bottom.png" width="600px" alt="" padding="0" href="https://google.com" />
       </mj-column>
     </mj-section>
-      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-bottom="0">
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
         <mj-column width="100%" css-class="en__component en__component--droppable ui-sortable">
           <mj-text css-class="en__component en__component--textblock" color="#212b35" font-weight="bold" font-size="20px">
             TEST TEST TEST TEST TEST Croft's in Austin is opening December 20th
